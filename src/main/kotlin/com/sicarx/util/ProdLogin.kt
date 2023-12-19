@@ -1,4 +1,4 @@
-package org.example.util
+package com.sicarx.util
 
 import org.openqa.selenium.By
 import org.openqa.selenium.StaleElementReferenceException

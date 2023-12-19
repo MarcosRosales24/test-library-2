@@ -1,21 +1,20 @@
-package util
+package com.sicarx.util
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
-import dto.LoginAccountDto
-import dto.LoginCompanyDto
-import org.example.dto.BranchesListDto
-import org.example.dto.CompanyListDto
-import org.example.request.getLog
-import org.example.request.postLog
-import org.example.util.GlobalVariables.Companion.ACCOUNT
-import org.example.util.GlobalVariables.Companion.COMPANY
-import org.example.util.GlobalVariables.Companion.LIST_BRANCH
-import org.example.util.GlobalVariables.Companion.LIST_COMPANY
+import com.sicarx.dto.LoginAccountDto
+import com.sicarx.dto.LoginCompanyDto
+import com.sicarx.dto.BranchesListDto
+import com.sicarx.dto.CompanyListDto
+import com.sicarx.request.getLog
+import com.sicarx.request.postLog
+import com.sicarx.util.GlobalVariables.Companion.ACCOUNT
+import com.sicarx.util.GlobalVariables.Companion.COMPANY
+import com.sicarx.util.GlobalVariables.Companion.LIST_BRANCH
+import com.sicarx.util.GlobalVariables.Companion.LIST_COMPANY
 import org.springframework.http.ResponseEntity
-import utils.FirmadorAWSGeneral
 import java.net.URI
 import java.security.MessageDigest
 

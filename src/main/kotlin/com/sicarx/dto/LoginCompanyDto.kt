@@ -1,4 +1,4 @@
-package dto
+package com.sicarx.dto
 
 data class LoginCompanyDto(
     val branchId: Long,

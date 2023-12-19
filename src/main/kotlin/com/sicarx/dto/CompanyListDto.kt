@@ -1,4 +1,4 @@
-package org.example.dto
+package com.sicarx.dto
 
 data class CompanyListDto(
     val uuid: String,

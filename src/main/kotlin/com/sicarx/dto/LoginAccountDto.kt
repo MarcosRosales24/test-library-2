@@ -1,4 +1,4 @@
-package dto
+package com.sicarx.dto
 
 data class LoginAccountDto(
     val deviceType: String = "Product Testing",

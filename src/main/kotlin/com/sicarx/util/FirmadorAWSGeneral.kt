@@ -1,4 +1,4 @@
-package utils
+package com.sicarx.util
 
 import java.net.URI
 import java.security.MessageDigest

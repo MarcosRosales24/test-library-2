@@ -1,4 +1,4 @@
-package org.example.request
+package com.sicarx.request
 
 import okhttp3.OkHttpClient
 import okhttp3.Request

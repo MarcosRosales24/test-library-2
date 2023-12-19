@@ -1,4 +1,4 @@
-package org.example.dto
+package com.sicarx.dto
 
 data class BranchesListDto(
     val id: Long,

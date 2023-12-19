@@ -1,4 +1,4 @@
-package org.example.util
+package com.sicarx.util
 
 class GlobalVariables {
     companion object{
