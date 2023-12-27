@@ -5,9 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>test-library-2</artifactId>
-    <groupId>com.sicarx.</groupId>
+    <groupId>io.github.</groupId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://https://github.com/Files-com/files-sdk-java/issues</url>
+    </issueManagement>
 
     <description>this is a library to testing sicar</description>
     <url>https://github.com/MarcosRosales24/test-library-2</url>
@@ -19,7 +24,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
-        <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
+        <kotlin.compiler.jvmTarget>1.9.2</kotlin.compiler.jvmTarget>
     </properties>
 
     <repositories>
